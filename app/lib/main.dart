@@ -11,6 +11,10 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final store = LocalStore();
   await store.open();
+  // wait for the font so chips are not measured with the fallback font and cut off; give up after 3 s offline
+  try {
+    await GoogleFonts.pendingFonts([GoogleFonts.plusJakartaSans()]).timeout(const Duration(seconds: 3));
+  } catch (_) {}
   runApp(ProviderScope(
     overrides: [localStoreProvider.overrideWithValue(store)],
     child: const EncoreApp(),
