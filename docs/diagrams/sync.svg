@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920" font-family="Liberation Sans, Arial" font-size="19">
+<rect width="1200" height="920" fill="#fff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<g stroke="#444" stroke-width="2.5" fill="none" marker-end="url(#a)">
+<line x1="600" y1="96" x2="600" y2="132"/><line x1="600" y1="206" x2="600" y2="242"/>
+<line x1="600" y1="316" x2="600" y2="352"/><line x1="600" y1="456" x2="600" y2="492"/>
+<line x1="600" y1="586" x2="600" y2="622"/><line x1="600" y1="696" x2="600" y2="732"/>
+<line x1="600" y1="806" x2="600" y2="836"/>
+<path d="M440 404 H190 V492"/>
+<path d="M190 612 V870 H396"/>
+</g>
+<rect x="400" y="30" width="400" height="66" rx="33" fill="#ede9fe" stroke="#7c3aed"/><text x="600" y="70" text-anchor="middle" font-weight="bold">User creates, edits or deletes</text>
+<rect x="380" y="136" width="440" height="70" rx="10" fill="#ecfdf5" stroke="#059669"/><text x="600" y="168" text-anchor="middle">1. Write to Hive events box</text><text x="600" y="192" text-anchor="middle" font-size="16">screen updates at once</text>
+<rect x="380" y="246" width="440" height="70" rx="10" fill="#ecfdf5" stroke="#059669"/><text x="600" y="278" text-anchor="middle">2. Add job to queue box</text><text x="600" y="302" text-anchor="middle" font-size="16">{op: create | update | delete, id, data}</text>
+<polygon points="600,356 760,404 600,456 440,404" fill="#fff7ed" stroke="#ea580c"/><text x="600" y="410" text-anchor="middle">Server reachable?</text>
+<text x="612" y="482" font-size="17">yes</text><text x="300" y="394" font-size="17">no</text>
+<rect x="20" y="496" width="340" height="116" rx="10" fill="#fee2e2" stroke="#dc2626"/><text x="190" y="530" text-anchor="middle">OfflineException</text><text x="190" y="558" text-anchor="middle" font-size="16">queue kept, SyncBanner shows</text><text x="190" y="580" text-anchor="middle" font-size="16">"N changes waiting". Retry or pull</text><text x="190" y="602" text-anchor="middle" font-size="16">to refresh runs sync again later</text>
+<rect x="380" y="496" width="440" height="90" rx="10" fill="#e0f2fe" stroke="#0284c7"/><text x="600" y="526" text-anchor="middle">3. Push queued jobs in order</text><text x="600" y="552" text-anchor="middle" font-size="16">POST / PUT / DELETE /events</text><text x="600" y="574" text-anchor="middle" font-size="16">409 newer on server: server wins. 404 / 400: drop job</text>
+<rect x="380" y="626" width="440" height="70" rx="10" fill="#e0f2fe" stroke="#0284c7"/><text x="600" y="658" text-anchor="middle">4. Pull GET /events</text><text x="600" y="682" text-anchor="middle" font-size="16">replace the local copy</text>
+<rect x="380" y="736" width="440" height="70" rx="10" fill="#e0f2fe" stroke="#0284c7"/><text x="600" y="768" text-anchor="middle">5. Re-apply jobs still queued</text><text x="600" y="792" text-anchor="middle" font-size="16">edits made during the sync stay on screen</text>
+<rect x="400" y="840" width="400" height="60" rx="30" fill="#ede9fe" stroke="#7c3aed"/><text x="600" y="877" text-anchor="middle" font-weight="bold">Phone and server match</text>
+<text x="205" y="860" font-size="15" fill="#555">later, when back online</text>
+</svg>

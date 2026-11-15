@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="Liberation Sans, Arial" font-size="20">
+<rect width="1200" height="760" fill="#fff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<rect x="20" y="20" width="760" height="720" rx="16" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="40" y="54" font-size="22" font-weight="bold" fill="#5b21b6">Flutter app (lib/)</text>
+<g>
+<rect x="50" y="80" width="700" height="120" rx="12" fill="#ede9fe" stroke="#7c3aed"/>
+<text x="70" y="112" font-weight="bold">UI layer  (ui/screens, ui/widgets)</text>
+<text x="70" y="142" font-size="17">AuthScreen, HomeShell, Dashboard, Discover, ShowDetail, EventList,</text>
+<text x="70" y="166" font-size="17">EventDetail, EventForm, Profile  |  TicketStub, StarRating, SyncBanner, BannerImage</text>
+<text x="70" y="190" font-size="15" fill="#555">ref.watch(provider) to read state, ref.read(provider.notifier) to act</text>
+</g>
+<g>
+<rect x="50" y="250" width="700" height="110" rx="12" fill="#fce7f3" stroke="#db2777"/>
+<text x="70" y="282" font-weight="bold">State layer  (state/providers.dart)</text>
+<text x="70" y="312" font-size="17">Riverpod view models: AuthNotifier, EventsNotifier (items, online, syncing,</text>
+<text x="70" y="336" font-size="17">pending), showsProvider</text>
+</g>
+<g>
+<rect x="50" y="410" width="700" height="110" rx="12" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="70" y="442" font-weight="bold">Data layer  (data/)</text>
+<text x="70" y="472" font-size="17">AuthRepository, EventRepository (offline queue + sync), ShowRepository</text>
+<text x="70" y="496" font-size="17">Models: EventItem, Show, AppUser</text>
+</g>
+<g>
+<rect x="50" y="570" width="330" height="140" rx="12" fill="#ecfdf5" stroke="#059669"/>
+<text x="70" y="602" font-weight="bold">LocalStore (Hive)</text>
+<text x="70" y="632" font-size="17">boxes: events, queue,</text>
+<text x="70" y="656" font-size="17">session, shows</text>
+<text x="70" y="686" font-size="15" fill="#555">works with no internet</text>
+</g>
+<g>
+<rect x="420" y="570" width="330" height="140" rx="12" fill="#fff7ed" stroke="#ea580c"/>
+<text x="440" y="602" font-weight="bold">ApiClient (core/)</text>
+<text x="440" y="632" font-size="17">http + Bearer token,</text>
+<text x="440" y="656" font-size="17">8 s timeout, maps errors to</text>
+<text x="440" y="680" font-size="17">OfflineException / ApiException</text>
+</g>
+<line x1="400" y1="200" x2="400" y2="246" stroke="#444" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="400" y1="360" x2="400" y2="406" stroke="#444" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="215" y1="520" x2="215" y2="566" stroke="#444" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="585" y1="520" x2="585" y2="566" stroke="#444" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="840" y="440" width="340" height="300" rx="16" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<text x="860" y="476" font-size="22" font-weight="bold" fill="#334155">Backend (backend/)</text>
+<text x="860" y="512" font-size="17">Node.js + Express REST API</text>
+<text x="860" y="540" font-size="17">/auth, /me, /events CRUD,</text>
+<text x="860" y="564" font-size="17">/shows, /images</text>
+<rect x="860" y="600" width="300" height="110" rx="10" fill="#fff" stroke="#334155"/>
+<text x="880" y="634" font-weight="bold">SQLite (node:sqlite)</text>
+<text x="880" y="664" font-size="17">users, sessions, events</text>
+<text x="880" y="690" font-size="15" fill="#555">shows.json for listings</text>
+<line x1="750" y1="640" x2="836" y2="640" stroke="#444" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="770" y="668" font-size="15">HTTP JSON</text>
+</svg>
