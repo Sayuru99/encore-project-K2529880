@@ -1,0 +1,189 @@
+[
+  {
+    "id": "real-01",
+    "title": "ICC Men's T20 World Cup: Sri Lanka vs Ireland",
+    "artist": "Sri Lanka and Ireland national teams",
+    "venue": "R. Premadasa Stadium, Colombo 10",
+    "date": "2026-02-08T19:00:00+05:30",
+    "type": "sport",
+    "price": 1000,
+    "image": "/images/premadasa-stadium.jpg",
+    "description": "Sri Lanka's first match at the Premadasa during the 2026 T20 World Cup, co-hosted with India. A Group B night game under the lights."
+  },
+  {
+    "id": "real-02",
+    "title": "Russell Peters: Relax World Tour Finale",
+    "artist": "Russell Peters",
+    "venue": "Lumina Ballroom, Cinnamon Life at City of Dreams, Colombo 02",
+    "date": "2026-03-31T18:00:00+05:30",
+    "type": "comedy",
+    "price": 25000,
+    "image": "/images/russell-peters.jpg",
+    "description": "One night only. The Canadian comic closed his Relax World Tour in Colombo. Doors opened at 5 pm and tickets started at Rs. 25,000."
+  },
+  {
+    "id": "real-03",
+    "title": "Aditya Narayan and Sanka Dineth Live",
+    "artist": "Aditya Narayan, Sanka Dineth",
+    "venue": "Havelock Grounds, Colombo 05",
+    "date": "2026-08-01T19:00:00+05:30",
+    "type": "concert",
+    "price": 3000,
+    "image": "/images/concert-lights.jpg",
+    "description": "The Indian playback singer and the Sri Lankan composer shared one stage to open their Sri Lanka and Japan tour."
+  },
+  {
+    "id": "real-04",
+    "title": "ONE LOVE Reggae Festival 2026",
+    "artist": "International reggae headliners, tribute to Bob Marley",
+    "venue": "Bentota Beach, Bentota",
+    "date": "2026-08-07T16:00:00+05:30",
+    "type": "festival",
+    "price": 15000,
+    "image": "/images/bentota-beach.jpg",
+    "description": "Billed as South Asia's first three day reggae festival. Moved from March to 7 to 9 August, with an after party at Port City Colombo on the 10th."
+  },
+  {
+    "id": "real-05",
+    "title": "Ceylon Music Festival 2026",
+    "artist": "Arash, Mohombi, BNS, Centigradz, Umara, Sarith and Surith",
+    "venue": "Port City Colombo",
+    "date": "2026-10-24T18:00:00+05:30",
+    "type": "festival",
+    "price": 6000,
+    "image": "/images/mohombi.jpg",
+    "description": "Arash and Mohombi headlined, with Bathiya and Santhush, Centigradz, Umara and the Sarith and Surith band on the same bill. Presented by Big Blast Events. Tickets from Rs. 6,000."
+  },
+  {
+    "id": "real-06",
+    "title": "Senter Music Festival 2026",
+    "artist": "DJ Snake, DJ MASS and more",
+    "venue": "Port City Colombo",
+    "date": "2026-10-31T19:00:00+05:30",
+    "type": "festival",
+    "price": 12000,
+    "image": "/images/dj-snake.jpg",
+    "description": "Two nights on the Port City waterfront, 30 and 31 October. DJ Snake played his first ever Sri Lanka show on the main stage on the Saturday."
+  },
+  {
+    "id": "real-07",
+    "title": "This Is Michael: Relive the Legend",
+    "artist": "Lenny Jay",
+    "venue": "The Podium, City of Dreams, Colombo 02",
+    "date": "2026-11-08T19:30:00+05:30",
+    "type": "concert",
+    "price": 7500,
+    "image": "/images/colombo-skyline.jpg",
+    "description": "Milan based tribute artist Lenny Jay recreated Michael Jackson's biggest hits over two nights, 8 and 9 November."
+  },
+  {
+    "id": "show-01",
+    "title": "Colombo Jazz Under the Stars",
+    "artist": "The Galle Road Quartet and guests",
+    "venue": "Nelum Pokuna Theatre, Colombo 07",
+    "date": "2026-12-12T19:00:00+05:30",
+    "type": "concert",
+    "price": 6500,
+    "image": "/images/jazz-concert.jpg",
+    "description": "An evening of swing, bossa nova and Sri Lankan jazz standards. Doors open at 6.15 pm, and the bar in the foyer serves before the show and in the interval."
+  },
+  {
+    "id": "show-02",
+    "title": "Sunset Sessions: Galle Face",
+    "artist": "Local DJs and live percussion",
+    "venue": "Galle Face Green, Colombo 03",
+    "date": "2026-12-19T16:30:00+05:30",
+    "type": "festival",
+    "price": 2500,
+    "image": "/images/galle-face-sunset.jpg",
+    "description": "An open-air afternoon to evening set by the sea, with food stalls along the promenade. Bring a mat. The show goes on in light rain."
+  },
+  {
+    "id": "show-03",
+    "title": "Lions vs. Visitors: T20 Night Match",
+    "artist": "Sri Lanka national team",
+    "venue": "R. Premadasa Stadium, Colombo 10",
+    "date": "2027-01-09T19:00:00+05:30",
+    "type": "sport",
+    "price": 1500,
+    "image": "/images/premadasa-stadium.jpg",
+    "description": "A day-night T20 under the lights. Gates open 2 hours before the first ball. Outside food and bottles are not allowed in."
+  },
+  {
+    "id": "show-04",
+    "title": "Laugh Out Loud Colombo",
+    "artist": "Six stand-up comics, English and Sinhala sets",
+    "venue": "Lionel Wendt Theatre, Colombo 07",
+    "date": "2026-12-05T20:00:00+05:30",
+    "type": "comedy",
+    "price": 3000,
+    "image": "/images/comedy-stage.jpg",
+    "description": "A bilingual stand-up night with new and familiar faces from the Colombo circuit. Suitable for ages 16 and over."
+  },
+  {
+    "id": "show-05",
+    "title": "Island Beats Beach Festival",
+    "artist": "20+ artists on two stages",
+    "venue": "Unawatuna Beach, Galle",
+    "date": "2027-02-13T15:00:00+05:30",
+    "type": "festival",
+    "price": 9500,
+    "image": "/images/beach-festival.jpg",
+    "description": "Two days of electronic, hip hop and baila-fusion acts right on the sand. Day and weekend passes are sold separately, and shuttle buses run from Galle Fort."
+  },
+  {
+    "id": "show-06",
+    "title": "Rhythms of Lanka: A Dance Showcase",
+    "artist": "Kandyan, Low Country and Sabaragamuwa troupes",
+    "venue": "Nelum Pokuna Theatre, Colombo 07",
+    "date": "2027-01-23T18:30:00+05:30",
+    "type": "theatre",
+    "price": 4000,
+    "image": "/images/dance-stage.jpg",
+    "description": "The three traditional dance forms of Sri Lanka on one stage, with live drummers. Each piece is introduced in Sinhala, Tamil and English."
+  },
+  {
+    "id": "show-07",
+    "title": "Neon Nights Live",
+    "artist": "Headline rock and pop acts",
+    "venue": "Nelum Pokuna Outdoor Arena, Colombo 07",
+    "date": "2027-03-06T18:00:00+05:30",
+    "type": "concert",
+    "price": 12000,
+    "image": "/images/concert-lights.jpg",
+    "description": "A big-stage concert with a full light show. Standing and seated tickets are available, and seated tickets include a reserved entry lane."
+  },
+  {
+    "id": "show-08",
+    "title": "Colombo Street Food and Music Fair",
+    "artist": "Bands, buskers and 60 food stalls",
+    "venue": "BMICH Grounds, Colombo 07",
+    "date": "2027-01-30T11:00:00+05:30",
+    "type": "other",
+    "price": 500,
+    "image": "/images/bmich.jpg",
+    "description": "A family day out with street food from around the island, live bands on the lawn and a kids' corner. Entry is free for children under 12."
+  },
+  {
+    "id": "show-09",
+    "title": "Inter-School Athletics Finals",
+    "artist": "Top schools from all 9 provinces",
+    "venue": "Sugathadasa Stadium, Colombo 13",
+    "date": "2027-02-20T08:00:00+05:30",
+    "type": "sport",
+    "price": 300,
+    "image": "/images/sugathadasa-stadium.jpg",
+    "description": "Track and field finals across the day, with the 4 x 100 m relays as the closing races. The covered stand has free seating."
+  },
+  {
+    "id": "show-10",
+    "title": "Unplugged at the Lotus",
+    "artist": "Acoustic singer-songwriters",
+    "venue": "Nelum Pokuna Theatre, Colombo 07",
+    "date": "2026-12-27T19:30:00+05:30",
+    "type": "concert",
+    "price": 5000,
+    "image": "/images/nelum-pokuna-concert.jpg",
+    "description": "A seated, intimate set of original songs and well-loved covers. The perfect end-of-year night out."
+  }
+]
