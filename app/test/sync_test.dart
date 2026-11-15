@@ -18,6 +18,10 @@ void main() {
     expect(back.title, 'Jazz Night');
     expect(back.date, event.date);
     expect(back.updatedAt, event.updatedAt);
+    // a date from the server with an offset must come back as local time, not UTC
+    final fromServer = EventItem.fromJson({...event.toJson(), 'date': '2026-10-31T19:00:00+05:30'});
+    expect(fromServer.date.isUtc, isFalse);
+    expect(fromServer.date, DateTime.utc(2026, 10, 31, 13, 30).toLocal());
   });
 
   test('validators', () {

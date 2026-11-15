@@ -47,7 +47,7 @@ class EventItem {
         title: j['title'] as String,
         artist: (j['artist'] ?? '') as String,
         venue: (j['venue'] ?? '') as String,
-        date: DateTime.parse(j['date'] as String),
+        date: DateTime.parse(j['date'] as String).toLocal(), // server dates carry +05:30, show them in phone time
         type: j['type'] as String,
         status: j['status'] as String,
         price: (j['price'] as num).toDouble(),
